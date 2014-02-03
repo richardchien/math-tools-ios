@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  MathTools
+
+  Created by Richard Chien on 14-1-31.
+  Copyright (c) 2014年 Richard Chien. All rights reserved.
+*/
+
+CFBundleDisplayName = "数学小工具";

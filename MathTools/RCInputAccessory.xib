@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5037.3" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RCInputAccessory">
+            <connections>
+                <outlet property="view" destination="dB9-AH-ABK" id="kkD-cN-Qhy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dB9-AH-ABK">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <items>
+                <barButtonItem title="隐藏" id="qAx-p6-SuZ">
+                    <connections>
+                        <action selector="hide" destination="-1" id="Mqc-52-JZh"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem title="清除" id="GyN-Fm-c6h">
+                    <connections>
+                        <action selector="clear" destination="-1" id="vhY-eL-Q2a"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="QUH-WM-yUV"/>
+                <barButtonItem title="+ / -" id="2Q7-bF-3I3">
+                    <connections>
+                        <action selector="opposite" destination="-1" id="pIa-MG-1Rj"/>
+                    </connections>
+                </barButtonItem>
+            </items>
+        </toolbar>
+    </objects>
+</document>

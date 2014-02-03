@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792DF781189B3F4900420527 /* RCLine2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 792DF780189B3F4900420527 /* RCLine2ViewController.mm */; };
+		792DF784189B51AC00420527 /* RCCircleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 792DF783189B51AC00420527 /* RCCircleViewController.mm */; };
+		792DF786189B545500420527 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 792DF785189B545500420527 /* Point.cpp */; };
+		792DF789189B605900420527 /* geoCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 792DF788189B605900420527 /* geoCircle.png */; };
+		792DF78B189B70D200420527 /* geoEllipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 792DF78A189B70D200420527 /* geoEllipse.png */; };
+		792DF78E189B759000420527 /* RCEllipseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 792DF78D189B759000420527 /* RCEllipseViewController.mm */; };
+		792DF791189B7ECC00420527 /* RCAbout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 792DF790189B7ECC00420527 /* RCAbout.mm */; };
+		792DF794189B842200420527 /* RCSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 792DF793189B842200420527 /* RCSettings.mm */; };
+		792DF796189B8E4900420527 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792DF795189B8E4900420527 /* MessageUI.framework */; };
+		792DF79C189B9E8D00420527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792DF79B189B9E8D00420527 /* InfoPlist.strings */; };
+		7934852E189922CC00A0EA1D /* RCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7934852D189922CC00A0EA1D /* RCViewController.mm */; };
+		793485321899232B00A0EA1D /* RCInputAccessory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 793485301899232B00A0EA1D /* RCInputAccessory.mm */; };
+		793485331899232B00A0EA1D /* RCInputAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793485311899232B00A0EA1D /* RCInputAccessory.xib */; };
+		793485361899261100A0EA1D /* RCLE1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 793485351899261100A0EA1D /* RCLE1ViewController.mm */; };
+		7934853818993FA000A0EA1D /* buttonBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 7934853718993FA000A0EA1D /* buttonBackGround.png */; };
+		7934853B18994CAA00A0EA1D /* RCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7934853A18994CAA00A0EA1D /* RCTableViewController.m */; };
+		795CA5161893F0820094F75B /* textBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 795CA5151893F0820094F75B /* textBackground.png */; };
+		795ED8B21899F276008749DB /* RCLE2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8B11899F276008749DB /* RCLE2ViewController.mm */; };
+		795ED8B5189A1301008749DB /* RCLE3ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8B4189A1301008749DB /* RCLE3ViewController.mm */; };
+		795ED8B8189A1C27008749DB /* RCQE1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8B7189A1C27008749DB /* RCQE1ViewController.mm */; };
+		795ED8BB189A3279008749DB /* RCCE1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8BA189A3279008749DB /* RCCE1ViewController.mm */; };
+		795ED8BE189A5943008749DB /* RCTrigViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8BD189A5943008749DB /* RCTrigViewController.mm */; };
+		795ED8C1189A7044008749DB /* trigUsualValue.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8C0189A7044008749DB /* trigUsualValue.png */; };
+		795ED8C3189A7F13008749DB /* trigYouDaoFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8C2189A7F13008749DB /* trigYouDaoFormula.png */; };
+		795ED8C5189A863D008749DB /* trigSum-DiffFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8C4189A863D008749DB /* trigSum-DiffFormula.png */; };
+		795ED8C7189A891B008749DB /* trigDoubleAngleFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8C6189A891B008749DB /* trigDoubleAngleFormula.png */; };
+		795ED8C9189A8B77008749DB /* trigTripleAngleFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8C8189A8B77008749DB /* trigTripleAngleFormula.png */; };
+		795ED8CB189A8F9A008749DB /* trigSumToProductFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8CA189A8F9A008749DB /* trigSumToProductFormula.png */; };
+		795ED8CD189A91CA008749DB /* trigProductToSumFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8CC189A91CA008749DB /* trigProductToSumFormula.png */; };
+		795ED8CF189A93D7008749DB /* trigUniversalFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = 795ED8CE189A93D7008749DB /* trigUniversalFormula.png */; };
+		795ED8D3189A97DC008749DB /* AnalyticGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8D1189A97DC008749DB /* AnalyticGeometry.cpp */; };
+		795ED8D6189AA149008749DB /* RCLine1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795ED8D5189AA149008749DB /* RCLine1ViewController.mm */; };
+		797509AB188A33100055D2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AA188A33100055D2E7 /* Foundation.framework */; };
+		797509AD188A33100055D2E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AC188A33100055D2E7 /* CoreGraphics.framework */; };
+		797509AF188A33100055D2E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AE188A33100055D2E7 /* UIKit.framework */; };
+		797509B7188A33100055D2E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 797509B6188A33100055D2E7 /* main.m */; };
+		797509BB188A33100055D2E7 /* RCAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 797509BA188A33100055D2E7 /* RCAppDelegate.mm */; };
+		797509BD188A33100055D2E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797509BC188A33100055D2E7 /* Images.xcassets */; };
+		797509C4188A33100055D2E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509C3188A33100055D2E7 /* XCTest.framework */; };
+		797509C5188A33100055D2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AA188A33100055D2E7 /* Foundation.framework */; };
+		797509C6188A33100055D2E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AE188A33100055D2E7 /* UIKit.framework */; };
+		797509D0188A33100055D2E7 /* MathToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797509CF188A33100055D2E7 /* MathToolsTests.m */; };
+		797509DA188A33330055D2E7 /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797509D9188A33330055D2E7 /* iPhoneMain.storyboard */; };
+		797509EC188A46B50055D2E7 /* MathToolsImgHD.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509EB188A46B50055D2E7 /* MathToolsImgHD.png */; };
+		797509F2188A4C0F0055D2E7 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509F1188A4C0F0055D2E7 /* settings.png */; };
+		797509F8188A50DF0055D2E7 /* equationIco.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509F7188A50DF0055D2E7 /* equationIco.png */; };
+		797509FA188A529D0055D2E7 /* trigIco.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509F9188A529D0055D2E7 /* trigIco.png */; };
+		797509FC188A58EC0055D2E7 /* geoIco.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509FB188A58EC0055D2E7 /* geoIco.png */; };
+		79750A04188A79D50055D2E7 /* LE3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A03188A79D50055D2E7 /* LE3.png */; };
+		79750A06188A7A3D0055D2E7 /* LE2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A05188A7A3D0055D2E7 /* LE2.png */; };
+		79750A08188A7C590055D2E7 /* QE1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A07188A7C590055D2E7 /* QE1.png */; };
+		79750A0A188A7D4F0055D2E7 /* CE1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A09188A7D4F0055D2E7 /* CE1.png */; };
+		79750A25188AA4D90055D2E7 /* LE1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A24188AA4D90055D2E7 /* LE1.png */; };
+		79750A27188AB6910055D2E7 /* trigEvaluation.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A26188AB6910055D2E7 /* trigEvaluation.png */; };
+		79750A29188AB7B20055D2E7 /* trigValueList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79750A28188AB7B20055D2E7 /* trigValueList.png */; };
+		79A4224A188C0FC000A88D7A /* geoLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42249188C0FC000A88D7A /* geoLine.png */; };
+		79A4224D188C112000A88D7A /* geoPointToLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A4224C188C112000A88D7A /* geoPointToLine.png */; };
+		79D7E361188FF6FE0034940B /* RationalNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D7E35A188FF6FE0034940B /* RationalNumber.cpp */; };
+		79D7E362188FF6FE0034940B /* QuadraticIrrational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D7E35C188FF6FE0034940B /* QuadraticIrrational.cpp */; };
+		79D7E363188FF6FE0034940B /* EquationSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D7E35E188FF6FE0034940B /* EquationSolver.cpp */; };
+		79D7E364188FF6FE0034940B /* MathToolsBasic.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79D7E360188FF6FE0034940B /* MathToolsBasic.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		797509C7188A33100055D2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7975099F188A33100055D2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797509A6188A33100055D2E7;
+			remoteInfo = MathTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792DF77F189B3F4900420527 /* RCLine2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLine2ViewController.h; sourceTree = "<group>"; };
+		792DF780189B3F4900420527 /* RCLine2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCLine2ViewController.mm; sourceTree = "<group>"; };
+		792DF782189B51AC00420527 /* RCCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCircleViewController.h; sourceTree = "<group>"; };
+		792DF783189B51AC00420527 /* RCCircleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCCircleViewController.mm; sourceTree = "<group>"; };
+		792DF785189B545500420527 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		792DF788189B605900420527 /* geoCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geoCircle.png; sourceTree = "<group>"; };
+		792DF78A189B70D200420527 /* geoEllipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geoEllipse.png; sourceTree = "<group>"; };
+		792DF78C189B759000420527 /* RCEllipseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCEllipseViewController.h; sourceTree = "<group>"; };
+		792DF78D189B759000420527 /* RCEllipseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCEllipseViewController.mm; sourceTree = "<group>"; };
+		792DF78F189B7ECC00420527 /* RCAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAbout.h; sourceTree = "<group>"; };
+		792DF790189B7ECC00420527 /* RCAbout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCAbout.mm; sourceTree = "<group>"; };
+		792DF792189B842200420527 /* RCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSettings.h; sourceTree = "<group>"; };
+		792DF793189B842200420527 /* RCSettings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCSettings.mm; sourceTree = "<group>"; };
+		792DF795189B8E4900420527 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		792DF79B189B9E8D00420527 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7934852C189922CC00A0EA1D /* RCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
+		7934852D189922CC00A0EA1D /* RCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCViewController.mm; sourceTree = "<group>"; };
+		7934852F1899232B00A0EA1D /* RCInputAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCInputAccessory.h; sourceTree = "<group>"; };
+		793485301899232B00A0EA1D /* RCInputAccessory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCInputAccessory.mm; sourceTree = "<group>"; };
+		793485311899232B00A0EA1D /* RCInputAccessory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCInputAccessory.xib; sourceTree = "<group>"; };
+		793485341899261100A0EA1D /* RCLE1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLE1ViewController.h; sourceTree = "<group>"; };
+		793485351899261100A0EA1D /* RCLE1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCLE1ViewController.mm; sourceTree = "<group>"; };
+		7934853718993FA000A0EA1D /* buttonBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackGround.png; sourceTree = "<group>"; };
+		7934853918994CAA00A0EA1D /* RCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTableViewController.h; sourceTree = "<group>"; };
+		7934853A18994CAA00A0EA1D /* RCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTableViewController.m; sourceTree = "<group>"; };
+		795CA5151893F0820094F75B /* textBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textBackground.png; sourceTree = "<group>"; };
+		795ED8B01899F276008749DB /* RCLE2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLE2ViewController.h; sourceTree = "<group>"; };
+		795ED8B11899F276008749DB /* RCLE2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCLE2ViewController.mm; sourceTree = "<group>"; };
+		795ED8B3189A1301008749DB /* RCLE3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLE3ViewController.h; sourceTree = "<group>"; };
+		795ED8B4189A1301008749DB /* RCLE3ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCLE3ViewController.mm; sourceTree = "<group>"; };
+		795ED8B6189A1C27008749DB /* RCQE1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCQE1ViewController.h; sourceTree = "<group>"; };
+		795ED8B7189A1C27008749DB /* RCQE1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCQE1ViewController.mm; sourceTree = "<group>"; };
+		795ED8B9189A3279008749DB /* RCCE1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCE1ViewController.h; sourceTree = "<group>"; };
+		795ED8BA189A3279008749DB /* RCCE1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCCE1ViewController.mm; sourceTree = "<group>"; };
+		795ED8BC189A5943008749DB /* RCTrigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTrigViewController.h; sourceTree = "<group>"; };
+		795ED8BD189A5943008749DB /* RCTrigViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTrigViewController.mm; sourceTree = "<group>"; };
+		795ED8C0189A7044008749DB /* trigUsualValue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigUsualValue.png; sourceTree = "<group>"; };
+		795ED8C2189A7F13008749DB /* trigYouDaoFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigYouDaoFormula.png; sourceTree = "<group>"; };
+		795ED8C4189A863D008749DB /* trigSum-DiffFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trigSum-DiffFormula.png"; sourceTree = "<group>"; };
+		795ED8C6189A891B008749DB /* trigDoubleAngleFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigDoubleAngleFormula.png; sourceTree = "<group>"; };
+		795ED8C8189A8B77008749DB /* trigTripleAngleFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigTripleAngleFormula.png; sourceTree = "<group>"; };
+		795ED8CA189A8F9A008749DB /* trigSumToProductFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigSumToProductFormula.png; sourceTree = "<group>"; };
+		795ED8CC189A91CA008749DB /* trigProductToSumFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigProductToSumFormula.png; sourceTree = "<group>"; };
+		795ED8CE189A93D7008749DB /* trigUniversalFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigUniversalFormula.png; sourceTree = "<group>"; };
+		795ED8D0189A9671008749DB /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		795ED8D1189A97DC008749DB /* AnalyticGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnalyticGeometry.cpp; sourceTree = "<group>"; };
+		795ED8D2189A97DC008749DB /* AnalyticGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticGeometry.h; sourceTree = "<group>"; };
+		795ED8D4189AA149008749DB /* RCLine1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLine1ViewController.h; sourceTree = "<group>"; };
+		795ED8D5189AA149008749DB /* RCLine1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCLine1ViewController.mm; sourceTree = "<group>"; };
+		797509A7188A33100055D2E7 /* MathTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		797509AA188A33100055D2E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		797509AC188A33100055D2E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		797509AE188A33100055D2E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		797509B2188A33100055D2E7 /* MathTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathTools-Info.plist"; sourceTree = "<group>"; };
+		797509B6188A33100055D2E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		797509B8188A33100055D2E7 /* MathTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathTools-Prefix.pch"; sourceTree = "<group>"; };
+		797509B9188A33100055D2E7 /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		797509BA188A33100055D2E7 /* RCAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCAppDelegate.mm; sourceTree = "<group>"; };
+		797509BC188A33100055D2E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		797509C2188A33100055D2E7 /* MathToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		797509C3188A33100055D2E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		797509CB188A33100055D2E7 /* MathToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathToolsTests-Info.plist"; sourceTree = "<group>"; };
+		797509CF188A33100055D2E7 /* MathToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathToolsTests.m; sourceTree = "<group>"; };
+		797509D9188A33330055D2E7 /* iPhoneMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneMain.storyboard; sourceTree = "<group>"; };
+		797509EB188A46B50055D2E7 /* MathToolsImgHD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathToolsImgHD.png; sourceTree = "<group>"; };
+		797509F1188A4C0F0055D2E7 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		797509F7188A50DF0055D2E7 /* equationIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equationIco.png; sourceTree = "<group>"; };
+		797509F9188A529D0055D2E7 /* trigIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigIco.png; sourceTree = "<group>"; };
+		797509FB188A58EC0055D2E7 /* geoIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geoIco.png; sourceTree = "<group>"; };
+		79750A03188A79D50055D2E7 /* LE3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LE3.png; sourceTree = "<group>"; };
+		79750A05188A7A3D0055D2E7 /* LE2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LE2.png; sourceTree = "<group>"; };
+		79750A07188A7C590055D2E7 /* QE1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QE1.png; sourceTree = "<group>"; };
+		79750A09188A7D4F0055D2E7 /* CE1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CE1.png; sourceTree = "<group>"; };
+		79750A24188AA4D90055D2E7 /* LE1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LE1.png; sourceTree = "<group>"; };
+		79750A26188AB6910055D2E7 /* trigEvaluation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigEvaluation.png; sourceTree = "<group>"; };
+		79750A28188AB7B20055D2E7 /* trigValueList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigValueList.png; sourceTree = "<group>"; };
+		79A42249188C0FC000A88D7A /* geoLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geoLine.png; sourceTree = "<group>"; };
+		79A4224C188C112000A88D7A /* geoPointToLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geoPointToLine.png; sourceTree = "<group>"; };
+		79D7E358188FF6FE0034940B /* ComplexNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexNumber.h; sourceTree = "<group>"; };
+		79D7E359188FF6FE0034940B /* RationalNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RationalNumber.h; sourceTree = "<group>"; };
+		79D7E35A188FF6FE0034940B /* RationalNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RationalNumber.cpp; sourceTree = "<group>"; };
+		79D7E35B188FF6FE0034940B /* QuadraticIrrational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticIrrational.h; sourceTree = "<group>"; };
+		79D7E35C188FF6FE0034940B /* QuadraticIrrational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticIrrational.cpp; sourceTree = "<group>"; };
+		79D7E35D188FF6FE0034940B /* EquationSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationSolver.h; sourceTree = "<group>"; };
+		79D7E35E188FF6FE0034940B /* EquationSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquationSolver.cpp; sourceTree = "<group>"; };
+		79D7E35F188FF6FE0034940B /* MathToolsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathToolsBasic.h; sourceTree = "<group>"; };
+		79D7E360188FF6FE0034940B /* MathToolsBasic.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MathToolsBasic.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797509A4188A33100055D2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792DF796189B8E4900420527 /* MessageUI.framework in Frameworks */,
+				797509AD188A33100055D2E7 /* CoreGraphics.framework in Frameworks */,
+				797509AF188A33100055D2E7 /* UIKit.framework in Frameworks */,
+				797509AB188A33100055D2E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797509BF188A33100055D2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797509C4188A33100055D2E7 /* XCTest.framework in Frameworks */,
+				797509C6188A33100055D2E7 /* UIKit.framework in Frameworks */,
+				797509C5188A33100055D2E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		792DF797189B928D00420527 /* Equation */ = {
+			isa = PBXGroup;
+			children = (
+				793485341899261100A0EA1D /* RCLE1ViewController.h */,
+				793485351899261100A0EA1D /* RCLE1ViewController.mm */,
+				795ED8B01899F276008749DB /* RCLE2ViewController.h */,
+				795ED8B11899F276008749DB /* RCLE2ViewController.mm */,
+				795ED8B3189A1301008749DB /* RCLE3ViewController.h */,
+				795ED8B4189A1301008749DB /* RCLE3ViewController.mm */,
+				795ED8B6189A1C27008749DB /* RCQE1ViewController.h */,
+				795ED8B7189A1C27008749DB /* RCQE1ViewController.mm */,
+				795ED8B9189A3279008749DB /* RCCE1ViewController.h */,
+				795ED8BA189A3279008749DB /* RCCE1ViewController.mm */,
+			);
+			name = Equation;
+			sourceTree = "<group>";
+		};
+		792DF798189B929500420527 /* Trigonometric Functions */ = {
+			isa = PBXGroup;
+			children = (
+				795ED8BC189A5943008749DB /* RCTrigViewController.h */,
+				795ED8BD189A5943008749DB /* RCTrigViewController.mm */,
+			);
+			name = "Trigonometric Functions";
+			sourceTree = "<group>";
+		};
+		792DF799189B92B100420527 /* AnalyticGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				795ED8D4189AA149008749DB /* RCLine1ViewController.h */,
+				795ED8D5189AA149008749DB /* RCLine1ViewController.mm */,
+				792DF77F189B3F4900420527 /* RCLine2ViewController.h */,
+				792DF780189B3F4900420527 /* RCLine2ViewController.mm */,
+				792DF782189B51AC00420527 /* RCCircleViewController.h */,
+				792DF783189B51AC00420527 /* RCCircleViewController.mm */,
+				792DF78C189B759000420527 /* RCEllipseViewController.h */,
+				792DF78D189B759000420527 /* RCEllipseViewController.mm */,
+			);
+			name = AnalyticGeometry;
+			sourceTree = "<group>";
+		};
+		792DF79A189B92D400420527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7934852F1899232B00A0EA1D /* RCInputAccessory.h */,
+				793485301899232B00A0EA1D /* RCInputAccessory.mm */,
+				793485311899232B00A0EA1D /* RCInputAccessory.xib */,
+				797509D9188A33330055D2E7 /* iPhoneMain.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7952BF6118976466007428D5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7934853918994CAA00A0EA1D /* RCTableViewController.h */,
+				7934853A18994CAA00A0EA1D /* RCTableViewController.m */,
+				7934852C189922CC00A0EA1D /* RCViewController.h */,
+				7934852D189922CC00A0EA1D /* RCViewController.mm */,
+				792DF797189B928D00420527 /* Equation */,
+				792DF798189B929500420527 /* Trigonometric Functions */,
+				792DF799189B92B100420527 /* AnalyticGeometry */,
+				792DF792189B842200420527 /* RCSettings.h */,
+				792DF793189B842200420527 /* RCSettings.mm */,
+				792DF78F189B7ECC00420527 /* RCAbout.h */,
+				792DF790189B7ECC00420527 /* RCAbout.mm */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		795ED8BF189A702D008749DB /* OtherImg */ = {
+			isa = PBXGroup;
+			children = (
+				795CA5151893F0820094F75B /* textBackground.png */,
+				7934853718993FA000A0EA1D /* buttonBackGround.png */,
+			);
+			name = OtherImg;
+			sourceTree = "<group>";
+		};
+		7975099E188A33100055D2E7 = {
+			isa = PBXGroup;
+			children = (
+				797509B0188A33100055D2E7 /* MathTools */,
+				797509C9188A33100055D2E7 /* MathToolsTests */,
+				797509A9188A33100055D2E7 /* Frameworks */,
+				797509A8188A33100055D2E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797509A8188A33100055D2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797509A7188A33100055D2E7 /* MathTools.app */,
+				797509C2188A33100055D2E7 /* MathToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797509A9188A33100055D2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792DF795189B8E4900420527 /* MessageUI.framework */,
+				797509AA188A33100055D2E7 /* Foundation.framework */,
+				797509AC188A33100055D2E7 /* CoreGraphics.framework */,
+				797509AE188A33100055D2E7 /* UIKit.framework */,
+				797509C3188A33100055D2E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797509B0188A33100055D2E7 /* MathTools */ = {
+			isa = PBXGroup;
+			children = (
+				79D7E365188FF7030034940B /* Model */,
+				7952BF6118976466007428D5 /* View Controller */,
+				792DF79A189B92D400420527 /* View */,
+				797509B1188A33100055D2E7 /* Supporting Files */,
+			);
+			path = MathTools;
+			sourceTree = "<group>";
+		};
+		797509B1188A33100055D2E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				797509B9188A33100055D2E7 /* RCAppDelegate.h */,
+				797509BA188A33100055D2E7 /* RCAppDelegate.mm */,
+				79750A33188AC4300055D2E7 /* HomeMenuImg */,
+				79750A32188AC4100055D2E7 /* EuqationImg */,
+				79750A34188AC44C0055D2E7 /* TrigImg */,
+				79A4224B188C0FC900A88D7A /* GeoImg */,
+				795ED8BF189A702D008749DB /* OtherImg */,
+				797509B2188A33100055D2E7 /* MathTools-Info.plist */,
+				792DF79B189B9E8D00420527 /* InfoPlist.strings */,
+				797509BC188A33100055D2E7 /* Images.xcassets */,
+				797509B6188A33100055D2E7 /* main.m */,
+				797509B8188A33100055D2E7 /* MathTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		797509C9188A33100055D2E7 /* MathToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				797509CF188A33100055D2E7 /* MathToolsTests.m */,
+				797509CA188A33100055D2E7 /* Supporting Files */,
+			);
+			path = MathToolsTests;
+			sourceTree = "<group>";
+		};
+		797509CA188A33100055D2E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				797509CB188A33100055D2E7 /* MathToolsTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79750A32188AC4100055D2E7 /* EuqationImg */ = {
+			isa = PBXGroup;
+			children = (
+				79750A24188AA4D90055D2E7 /* LE1.png */,
+				79750A05188A7A3D0055D2E7 /* LE2.png */,
+				79750A03188A79D50055D2E7 /* LE3.png */,
+				79750A07188A7C590055D2E7 /* QE1.png */,
+				79750A09188A7D4F0055D2E7 /* CE1.png */,
+			);
+			name = EuqationImg;
+			sourceTree = "<group>";
+		};
+		79750A33188AC4300055D2E7 /* HomeMenuImg */ = {
+			isa = PBXGroup;
+			children = (
+				797509EB188A46B50055D2E7 /* MathToolsImgHD.png */,
+				797509F7188A50DF0055D2E7 /* equationIco.png */,
+				797509F9188A529D0055D2E7 /* trigIco.png */,
+				797509FB188A58EC0055D2E7 /* geoIco.png */,
+				797509F1188A4C0F0055D2E7 /* settings.png */,
+			);
+			name = HomeMenuImg;
+			sourceTree = "<group>";
+		};
+		79750A34188AC44C0055D2E7 /* TrigImg */ = {
+			isa = PBXGroup;
+			children = (
+				79750A26188AB6910055D2E7 /* trigEvaluation.png */,
+				79750A28188AB7B20055D2E7 /* trigValueList.png */,
+				795ED8C0189A7044008749DB /* trigUsualValue.png */,
+				795ED8C2189A7F13008749DB /* trigYouDaoFormula.png */,
+				795ED8C4189A863D008749DB /* trigSum-DiffFormula.png */,
+				795ED8C6189A891B008749DB /* trigDoubleAngleFormula.png */,
+				795ED8C8189A8B77008749DB /* trigTripleAngleFormula.png */,
+				795ED8CA189A8F9A008749DB /* trigSumToProductFormula.png */,
+				795ED8CC189A91CA008749DB /* trigProductToSumFormula.png */,
+				795ED8CE189A93D7008749DB /* trigUniversalFormula.png */,
+			);
+			name = TrigImg;
+			sourceTree = "<group>";
+		};
+		79A4224B188C0FC900A88D7A /* GeoImg */ = {
+			isa = PBXGroup;
+			children = (
+				79A42249188C0FC000A88D7A /* geoLine.png */,
+				79A4224C188C112000A88D7A /* geoPointToLine.png */,
+				792DF788189B605900420527 /* geoCircle.png */,
+				792DF78A189B70D200420527 /* geoEllipse.png */,
+			);
+			name = GeoImg;
+			sourceTree = "<group>";
+		};
+		79D7E365188FF7030034940B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79D7E358188FF6FE0034940B /* ComplexNumber.h */,
+				795ED8D0189A9671008749DB /* Point.h */,
+				792DF785189B545500420527 /* Point.cpp */,
+				79D7E359188FF6FE0034940B /* RationalNumber.h */,
+				79D7E35A188FF6FE0034940B /* RationalNumber.cpp */,
+				79D7E35B188FF6FE0034940B /* QuadraticIrrational.h */,
+				79D7E35C188FF6FE0034940B /* QuadraticIrrational.cpp */,
+				79D7E35D188FF6FE0034940B /* EquationSolver.h */,
+				79D7E35E188FF6FE0034940B /* EquationSolver.cpp */,
+				795ED8D2189A97DC008749DB /* AnalyticGeometry.h */,
+				795ED8D1189A97DC008749DB /* AnalyticGeometry.cpp */,
+				79D7E35F188FF6FE0034940B /* MathToolsBasic.h */,
+				79D7E360188FF6FE0034940B /* MathToolsBasic.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797509A6188A33100055D2E7 /* MathTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797509D3188A33100055D2E7 /* Build configuration list for PBXNativeTarget "MathTools" */;
+			buildPhases = (
+				797509A3188A33100055D2E7 /* Sources */,
+				797509A4188A33100055D2E7 /* Frameworks */,
+				797509A5188A33100055D2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTools;
+			productName = MathTools;
+			productReference = 797509A7188A33100055D2E7 /* MathTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		797509C1188A33100055D2E7 /* MathToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797509D6188A33100055D2E7 /* Build configuration list for PBXNativeTarget "MathToolsTests" */;
+			buildPhases = (
+				797509BE188A33100055D2E7 /* Sources */,
+				797509BF188A33100055D2E7 /* Frameworks */,
+				797509C0188A33100055D2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797509C8188A33100055D2E7 /* PBXTargetDependency */,
+			);
+			name = MathToolsTests;
+			productName = MathToolsTests;
+			productReference = 797509C2188A33100055D2E7 /* MathToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7975099F188A33100055D2E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Richard Chien";
+				TargetAttributes = {
+					797509A6188A33100055D2E7 = {
+						DevelopmentTeam = JA4F747PM8;
+					};
+					797509C1188A33100055D2E7 = {
+						TestTargetID = 797509A6188A33100055D2E7;
+					};
+				};
+			};
+			buildConfigurationList = 797509A2188A33100055D2E7 /* Build configuration list for PBXProject "MathTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 7975099E188A33100055D2E7;
+			productRefGroup = 797509A8188A33100055D2E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797509A6188A33100055D2E7 /* MathTools */,
+				797509C1188A33100055D2E7 /* MathToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797509A5188A33100055D2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795ED8C9189A8B77008749DB /* trigTripleAngleFormula.png in Resources */,
+				792DF78B189B70D200420527 /* geoEllipse.png in Resources */,
+				795CA5161893F0820094F75B /* textBackground.png in Resources */,
+				795ED8CB189A8F9A008749DB /* trigSumToProductFormula.png in Resources */,
+				79750A27188AB6910055D2E7 /* trigEvaluation.png in Resources */,
+				797509F2188A4C0F0055D2E7 /* settings.png in Resources */,
+				79750A29188AB7B20055D2E7 /* trigValueList.png in Resources */,
+				797509FC188A58EC0055D2E7 /* geoIco.png in Resources */,
+				792DF789189B605900420527 /* geoCircle.png in Resources */,
+				795ED8C3189A7F13008749DB /* trigYouDaoFormula.png in Resources */,
+				79A4224D188C112000A88D7A /* geoPointToLine.png in Resources */,
+				797509EC188A46B50055D2E7 /* MathToolsImgHD.png in Resources */,
+				797509F8188A50DF0055D2E7 /* equationIco.png in Resources */,
+				795ED8C1189A7044008749DB /* trigUsualValue.png in Resources */,
+				79750A08188A7C590055D2E7 /* QE1.png in Resources */,
+				79750A04188A79D50055D2E7 /* LE3.png in Resources */,
+				795ED8C5189A863D008749DB /* trigSum-DiffFormula.png in Resources */,
+				797509BD188A33100055D2E7 /* Images.xcassets in Resources */,
+				795ED8C7189A891B008749DB /* trigDoubleAngleFormula.png in Resources */,
+				792DF79C189B9E8D00420527 /* InfoPlist.strings in Resources */,
+				79750A06188A7A3D0055D2E7 /* LE2.png in Resources */,
+				79A4224A188C0FC000A88D7A /* geoLine.png in Resources */,
+				79750A25188AA4D90055D2E7 /* LE1.png in Resources */,
+				79750A0A188A7D4F0055D2E7 /* CE1.png in Resources */,
+				797509DA188A33330055D2E7 /* iPhoneMain.storyboard in Resources */,
+				793485331899232B00A0EA1D /* RCInputAccessory.xib in Resources */,
+				7934853818993FA000A0EA1D /* buttonBackGround.png in Resources */,
+				797509FA188A529D0055D2E7 /* trigIco.png in Resources */,
+				795ED8CD189A91CA008749DB /* trigProductToSumFormula.png in Resources */,
+				795ED8CF189A93D7008749DB /* trigUniversalFormula.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797509C0188A33100055D2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797509A3188A33100055D2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795ED8D6189AA149008749DB /* RCLine1ViewController.mm in Sources */,
+				795ED8B5189A1301008749DB /* RCLE3ViewController.mm in Sources */,
+				792DF784189B51AC00420527 /* RCCircleViewController.mm in Sources */,
+				7934853B18994CAA00A0EA1D /* RCTableViewController.m in Sources */,
+				797509B7188A33100055D2E7 /* main.m in Sources */,
+				793485361899261100A0EA1D /* RCLE1ViewController.mm in Sources */,
+				795ED8B21899F276008749DB /* RCLE2ViewController.mm in Sources */,
+				79D7E362188FF6FE0034940B /* QuadraticIrrational.cpp in Sources */,
+				792DF794189B842200420527 /* RCSettings.mm in Sources */,
+				792DF78E189B759000420527 /* RCEllipseViewController.mm in Sources */,
+				795ED8D3189A97DC008749DB /* AnalyticGeometry.cpp in Sources */,
+				797509BB188A33100055D2E7 /* RCAppDelegate.mm in Sources */,
+				79D7E364188FF6FE0034940B /* MathToolsBasic.mm in Sources */,
+				795ED8BE189A5943008749DB /* RCTrigViewController.mm in Sources */,
+				792DF786189B545500420527 /* Point.cpp in Sources */,
+				79D7E363188FF6FE0034940B /* EquationSolver.cpp in Sources */,
+				795ED8BB189A3279008749DB /* RCCE1ViewController.mm in Sources */,
+				7934852E189922CC00A0EA1D /* RCViewController.mm in Sources */,
+				795ED8B8189A1C27008749DB /* RCQE1ViewController.mm in Sources */,
+				793485321899232B00A0EA1D /* RCInputAccessory.mm in Sources */,
+				792DF781189B3F4900420527 /* RCLine2ViewController.mm in Sources */,
+				792DF791189B7ECC00420527 /* RCAbout.mm in Sources */,
+				79D7E361188FF6FE0034940B /* RationalNumber.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797509BE188A33100055D2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797509D0188A33100055D2E7 /* MathToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		797509C8188A33100055D2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797509A6188A33100055D2E7 /* MathTools */;
+			targetProxy = 797509C7188A33100055D2E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		797509D1188A33100055D2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797509D2188A33100055D2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797509D4188A33100055D2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathTools/MathTools-Prefix.pch";
+				INFOPLIST_FILE = "MathTools/MathTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		797509D5188A33100055D2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathTools/MathTools-Prefix.pch";
+				INFOPLIST_FILE = "MathTools/MathTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		797509D7188A33100055D2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathTools.app/MathTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathTools/MathTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MathToolsTests/MathToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		797509D8188A33100055D2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathTools.app/MathTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathTools/MathTools-Prefix.pch";
+				INFOPLIST_FILE = "MathToolsTests/MathToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797509A2188A33100055D2E7 /* Build configuration list for PBXProject "MathTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797509D1188A33100055D2E7 /* Debug */,
+				797509D2188A33100055D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797509D3188A33100055D2E7 /* Build configuration list for PBXNativeTarget "MathTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797509D4188A33100055D2E7 /* Debug */,
+				797509D5188A33100055D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797509D6188A33100055D2E7 /* Build configuration list for PBXNativeTarget "MathToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797509D7188A33100055D2E7 /* Debug */,
+				797509D8188A33100055D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7975099F188A33100055D2E7 /* Project object */;
+}
