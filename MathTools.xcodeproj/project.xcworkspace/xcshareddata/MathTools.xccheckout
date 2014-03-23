@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E4CE66A-5500-489A-AE62-9CDBC769F8CD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MathTools</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</key>
+		<string>https://github.com/richardchien/MathTools</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MathTools.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/richardchien/MathTools</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MathTools</string>
+		</dict>
+	</array>
+</dict>
+</plist>
