@@ -46,11 +46,16 @@
 
 - (void)provideFeedback
 {
-    MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
-    mailController.mailComposeDelegate = self;
-    [mailController setSubject:@"数学小工具 意见反馈"];
-    [mailController setToRecipients:[NSArray arrayWithObject:@"richardchien.me@gmail.com"]];
-    [self presentViewController:mailController animated:YES completion:nil];
+    try {
+        MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+        mailController.mailComposeDelegate = self;
+        [mailController setSubject:@"数学小工具 意见反馈"];
+        [mailController setToRecipients:[NSArray arrayWithObject:@"richardchien.me@gmail.com"]];
+        [self presentViewController:mailController animated:YES completion:nil];
+    }
+    catch(NSException *ex) {
+        
+    }
 }
 
 #pragma mark - Table View Delegate Methods

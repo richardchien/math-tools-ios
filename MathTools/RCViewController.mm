@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[UITextField appearance] setInputAccessoryView:self.inputBar.view];
+}
+
+- (void)viewDidLayoutSubviews
+{
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1)
         for (UIView *view in self.view.subviews)
         {
@@ -34,7 +39,6 @@
             rect.origin.y -= 70;
             view.frame = rect;
         }
-    [[UITextField appearance] setInputAccessoryView:self.inputBar.view];
 }
 
 - (void)viewDidAppear:(BOOL)animated

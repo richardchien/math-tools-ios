@@ -49,7 +49,7 @@
 		797509C5188A33100055D2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AA188A33100055D2E7 /* Foundation.framework */; };
 		797509C6188A33100055D2E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797509AE188A33100055D2E7 /* UIKit.framework */; };
 		797509D0188A33100055D2E7 /* MathToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797509CF188A33100055D2E7 /* MathToolsTests.m */; };
-		797509DA188A33330055D2E7 /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797509D9188A33330055D2E7 /* iPhoneMain.storyboard */; };
+		797509DA188A33330055D2E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797509D9188A33330055D2E7 /* Main.storyboard */; };
 		797509EC188A46B50055D2E7 /* MathToolsImgHD.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509EB188A46B50055D2E7 /* MathToolsImgHD.png */; };
 		797509F2188A4C0F0055D2E7 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509F1188A4C0F0055D2E7 /* settings.png */; };
 		797509F8188A50DF0055D2E7 /* equationIco.png in Resources */ = {isa = PBXBuildFile; fileRef = 797509F7188A50DF0055D2E7 /* equationIco.png */; };
@@ -144,7 +144,7 @@
 		797509C3188A33100055D2E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		797509CB188A33100055D2E7 /* MathToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathToolsTests-Info.plist"; sourceTree = "<group>"; };
 		797509CF188A33100055D2E7 /* MathToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathToolsTests.m; sourceTree = "<group>"; };
-		797509D9188A33330055D2E7 /* iPhoneMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneMain.storyboard; sourceTree = "<group>"; };
+		797509D9188A33330055D2E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		797509EB188A46B50055D2E7 /* MathToolsImgHD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathToolsImgHD.png; sourceTree = "<group>"; };
 		797509F1188A4C0F0055D2E7 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		797509F7188A50DF0055D2E7 /* equationIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equationIco.png; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 				7934852F1899232B00A0EA1D /* RCInputAccessory.h */,
 				793485301899232B00A0EA1D /* RCInputAccessory.mm */,
 				793485311899232B00A0EA1D /* RCInputAccessory.xib */,
-				797509D9188A33330055D2E7 /* iPhoneMain.storyboard */,
+				797509D9188A33330055D2E7 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -529,7 +529,7 @@
 				79A4224A188C0FC000A88D7A /* geoLine.png in Resources */,
 				79750A25188AA4D90055D2E7 /* LE1.png in Resources */,
 				79750A0A188A7D4F0055D2E7 /* CE1.png in Resources */,
-				797509DA188A33330055D2E7 /* iPhoneMain.storyboard in Resources */,
+				797509DA188A33330055D2E7 /* Main.storyboard in Resources */,
 				793485331899232B00A0EA1D /* RCInputAccessory.xib in Resources */,
 				7934853818993FA000A0EA1D /* buttonBackGround.png in Resources */,
 				797509FA188A529D0055D2E7 /* trigIco.png in Resources */,
@@ -682,7 +682,7 @@
 				INFOPLIST_FILE = "MathTools/MathTools-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -698,7 +698,7 @@
 				INFOPLIST_FILE = "MathTools/MathTools-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
