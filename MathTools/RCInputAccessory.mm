@@ -68,6 +68,9 @@
         [editedString appendString:currentString];
     }
     [firstResponder setText:editedString];
+    
+    if ([_delegate isKindOfClass:[RCTrigViewController class]])
+        [(RCTrigViewController *)_delegate variableChanged];
 }
 
 @end

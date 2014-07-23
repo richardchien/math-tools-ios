@@ -7,6 +7,7 @@
 //
 
 #import "RCViewController.h"
+#import "RCTrigViewController.h"
 
 @interface RCViewController ()
 
@@ -32,13 +33,17 @@
 
 - (void)viewDidLayoutSubviews
 {
-    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1)
+    [super viewDidLayoutSubviews];
+    
+    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1 && ![self isKindOfClass:[RCTrigViewController class]])
+    {
         for (UIView *view in self.view.subviews)
         {
             CGRect rect = view.frame;
-            rect.origin.y -= 70;
+            rect.origin.y -= 44;
             view.frame = rect;
         }
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0B3FD5A5-3C95-47EF-A223-0A323C0D5E84</string>
+	<string>E817A57D-A737-4010-BEF8-088C0B3D9CFD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MathTools</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</key>
-		<string>https://github.com/richardchien/MathTools</string>
+		<key>35759163-3984-42FC-88B9-4ECAEE526FC4</key>
+		<string>https://github.com/richardchien/MathTools.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MathTools.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</key>
+		<key>35759163-3984-42FC-88B9-4ECAEE526FC4</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/richardchien/MathTools</string>
+	<string>https://github.com/richardchien/MathTools.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</string>
+	<string>35759163-3984-42FC-88B9-4ECAEE526FC4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7C38C563-D4F5-4C3A-9A64-89680BB74DFB</string>
+			<string>35759163-3984-42FC-88B9-4ECAEE526FC4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MathTools</string>
 		</dict>
