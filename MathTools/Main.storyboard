@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A299l" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="z4M-t6-Gts">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="z4M-t6-Gts">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="83" y="32"/>
         </scene>
-        <!--Table View Controller - 首页-->
+        <!--首页-->
         <scene sceneID="c7M-fn-DC2">
             <objects>
                 <tableViewController id="h4O-lp-b5A" customClass="RCTableViewController" sceneMemberID="viewController">
@@ -139,7 +139,7 @@
             </objects>
             <point key="canvasLocation" x="524" y="32"/>
         </scene>
-        <!--Table View Controller - 平面解析几何-->
+        <!--平面解析几何-->
         <scene sceneID="8IK-hA-HQH">
             <objects>
                 <tableViewController id="P5c-eB-1Do" customClass="RCTableViewController" sceneMemberID="viewController">
@@ -368,7 +368,7 @@
             </objects>
             <point key="canvasLocation" x="970" y="367"/>
         </scene>
-        <!--Line1 View Controller - 两点求直线方程-->
+        <!--两点求直线方程-->
         <scene sceneID="mIs-rm-UlF">
             <objects>
                 <viewController id="H2f-mM-sbP" customClass="RCLine1ViewController" sceneMemberID="viewController">
@@ -552,7 +552,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="441"/>
         </scene>
-        <!--Line2 View Controller - 点到直线距离-->
+        <!--点到直线距离-->
         <scene sceneID="uBy-UV-Xfn">
             <objects>
                 <viewController id="4hu-A6-DOm" customClass="RCLine2ViewController" sceneMemberID="viewController">
@@ -760,7 +760,7 @@
             </objects>
             <point key="canvasLocation" x="1705" y="441"/>
         </scene>
-        <!--Circle View Controller - 三点求圆的方程-->
+        <!--三点求圆的方程-->
         <scene sceneID="LaE-BW-sbi">
             <objects>
                 <viewController id="dkD-aG-1sl" customClass="RCCircleViewController" sceneMemberID="viewController">
@@ -1037,7 +1037,7 @@
             </objects>
             <point key="canvasLocation" x="2058" y="441"/>
         </scene>
-        <!--Ellipse View Controller - 两点求椭圆或双曲线-->
+        <!--两点求椭圆或双曲线-->
         <scene sceneID="X1I-3q-ez5">
             <objects>
                 <viewController id="wki-Uo-4EH" customClass="RCEllipseViewController" sceneMemberID="viewController">
@@ -1249,7 +1249,7 @@
             </objects>
             <point key="canvasLocation" x="2410" y="441"/>
         </scene>
-        <!--Settings - 设置-->
+        <!--设置-->
         <scene sceneID="RFq-ec-fE9">
             <objects>
                 <tableViewController id="S3F-Be-s5L" customClass="RCSettings" sceneMemberID="viewController">
@@ -1438,7 +1438,7 @@
             </objects>
             <point key="canvasLocation" x="970" y="1054"/>
         </scene>
-        <!--About - 关于-->
+        <!--关于-->
         <scene sceneID="OW0-SE-vHh">
             <objects>
                 <viewController id="6XL-uU-ENR" customClass="RCAbout" sceneMemberID="viewController">
@@ -1473,7 +1473,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="1054"/>
         </scene>
-        <!--Table View Controller - 三角函数-->
+        <!--三角函数-->
         <scene sceneID="cIC-EL-qCO">
             <objects>
                 <tableViewController id="AIh-nH-xhQ" customClass="RCTableViewController" sceneMemberID="viewController">
@@ -1803,7 +1803,7 @@
             </objects>
             <point key="canvasLocation" x="970" y="-502"/>
         </scene>
-        <!--Trig View Controller - 求函数值-->
+        <!--求函数值-->
         <scene sceneID="aTp-gh-Vyi">
             <objects>
                 <viewController id="7ZS-8t-8AW" customClass="RCTrigViewController" sceneMemberID="viewController">
@@ -1906,7 +1906,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-684"/>
         </scene>
-        <!--Table View Controller - 常用值表-->
+        <!--常用值表-->
         <scene sceneID="UPc-6Y-60F">
             <objects>
                 <tableViewController id="KY7-4O-ys1" sceneMemberID="viewController">
@@ -1945,7 +1945,7 @@
             </objects>
             <point key="canvasLocation" x="1705" y="-684"/>
         </scene>
-        <!--Table View Controller - 诱导公式-->
+        <!--诱导公式-->
         <scene sceneID="Twr-tQ-8Ao">
             <objects>
                 <tableViewController id="iOo-x0-DtN" sceneMemberID="viewController">
@@ -1984,7 +1984,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-132"/>
         </scene>
-        <!--Table View Controller - 和差公式-->
+        <!--和差公式-->
         <scene sceneID="9ru-pl-NRV">
             <objects>
                 <tableViewController id="154-St-KDC" sceneMemberID="viewController">
@@ -2023,7 +2023,7 @@
             </objects>
             <point key="canvasLocation" x="1705" y="-132"/>
         </scene>
-        <!--Table View Controller - 二倍角公式-->
+        <!--二倍角公式-->
         <scene sceneID="Bkc-UH-ItK">
             <objects>
                 <tableViewController id="Pev-sG-PCE" sceneMemberID="viewController">
@@ -2062,7 +2062,7 @@
             </objects>
             <point key="canvasLocation" x="2058" y="-132"/>
         </scene>
-        <!--Table View Controller - 三倍角公式-->
+        <!--三倍角公式-->
         <scene sceneID="KKt-17-E9B">
             <objects>
                 <tableViewController id="32u-6R-eqa" sceneMemberID="viewController">
@@ -2101,7 +2101,7 @@
             </objects>
             <point key="canvasLocation" x="2410" y="-132"/>
         </scene>
-        <!--Table View Controller - 和差化积公式-->
+        <!--和差化积公式-->
         <scene sceneID="iPM-c8-gDZ">
             <objects>
                 <tableViewController id="nuW-n6-ebq" sceneMemberID="viewController">
@@ -2140,7 +2140,7 @@
             </objects>
             <point key="canvasLocation" x="2762" y="-132"/>
         </scene>
-        <!--Table View Controller - 积化和差公式-->
+        <!--积化和差公式-->
         <scene sceneID="SQf-Qw-Zx5">
             <objects>
                 <tableViewController id="Be2-MS-b52" sceneMemberID="viewController">
@@ -2159,7 +2159,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trigProductToSumFormula.png" translatesAutoresizingMaskIntoConstraints="NO" id="mGd-5W-zBV">
-                                                    <rect key="frame" x="20" y="20" width="280" height="105"/>
+                                                    <rect key="frame" x="20" y="20" width="280" height="100"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -2179,7 +2179,7 @@
             </objects>
             <point key="canvasLocation" x="3114" y="-132"/>
         </scene>
-        <!--Table View Controller - 万能公式-->
+        <!--万能公式-->
         <scene sceneID="Pnt-dd-ykN">
             <objects>
                 <tableViewController id="Z98-Pk-Vee" sceneMemberID="viewController">
@@ -2218,7 +2218,7 @@
             </objects>
             <point key="canvasLocation" x="3470" y="-132"/>
         </scene>
-        <!--Table View Controller - 方程-->
+        <!--方程-->
         <scene sceneID="YGQ-zI-INT">
             <objects>
                 <tableViewController id="04W-6t-iuh" customClass="RCTableViewController" sceneMemberID="viewController">
@@ -2484,7 +2484,7 @@
             </objects>
             <point key="canvasLocation" x="970" y="-1309"/>
         </scene>
-        <!--View Controller - 一元二次方程-->
+        <!--一元二次方程-->
         <scene sceneID="rZi-gg-uWB">
             <objects>
                 <viewController id="Z84-83-JoC" customClass="RCQE1ViewController" sceneMemberID="viewController">
@@ -2660,7 +2660,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-1309"/>
         </scene>
-        <!--View Controller - 一元三次方程-->
+        <!--一元三次方程-->
         <scene sceneID="QWW-6V-1hw">
             <objects>
                 <viewController id="MgD-tu-B9c" customClass="RCCE1ViewController" sceneMemberID="viewController">
@@ -2873,7 +2873,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-1101"/>
         </scene>
-        <!--View Controller - 一元一次方程-->
+        <!--一元一次方程-->
         <scene sceneID="jUs-ts-1re">
             <objects>
                 <viewController id="Ph1-Vs-Adg" customClass="RCLE1ViewController" sceneMemberID="viewController">
@@ -2999,7 +2999,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-2047"/>
         </scene>
-        <!--View Controller - 二元一次方程组-->
+        <!--二元一次方程组-->
         <scene sceneID="c5H-Ks-LY0">
             <objects>
                 <viewController id="xrV-JH-rjE" customClass="RCLE2ViewController" sceneMemberID="viewController">
@@ -3196,7 +3196,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="-1839"/>
         </scene>
-        <!--View Controller - 三元一次方程组-->
+        <!--三元一次方程组-->
         <scene sceneID="TEF-GA-TFI">
             <objects>
                 <viewController id="AnQ-lI-kYM" customClass="RCLE3ViewController" sceneMemberID="viewController">
@@ -3553,7 +3553,7 @@
         <image name="trigDoubleAngleFormula.png" width="560" height="650"/>
         <image name="trigEvaluation.png" width="132" height="42"/>
         <image name="trigIco.png" width="60" height="60"/>
-        <image name="trigProductToSumFormula.png" width="560" height="210"/>
+        <image name="trigProductToSumFormula.png" width="585" height="209"/>
         <image name="trigSum-DiffFormula.png" width="560" height="441"/>
         <image name="trigSumToProductFormula.png" width="560" height="778"/>
         <image name="trigTripleAngleFormula.png" width="560" height="310"/>
