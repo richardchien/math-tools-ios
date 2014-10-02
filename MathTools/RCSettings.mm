@@ -46,25 +46,38 @@
 
 - (void)provideFeedback
 {
-    try {
+    @try {
         MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
         mailController.mailComposeDelegate = self;
         [mailController setSubject:@"数学小工具 意见反馈"];
-        [mailController setToRecipients:[NSArray arrayWithObject:@"richardchien.me@gmail.com"]];
+        [mailController setToRecipients:[NSArray arrayWithObject:@"feedback@r-c.im"]];
         [self presentViewController:mailController animated:YES completion:nil];
     }
-    catch(NSException *ex) {
-        
+    @catch(NSException *ex) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"操作失败"
+                                                        message:@"您的系统中没有设置邮件地址，暂时无法发送意见反馈。请在系统中添加邮件地址后再试。"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"知道了"
+                                              otherButtonTitles:nil, nil];
+        [alert show];
     }
+}
+
+- (void)rateOnAppStore
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://itunes.apple.com/us/app/shu-xue-xiao-gong-ju/id710500795?ls=1&mt=8"]];
 }
 
 #pragma mark - Table View Delegate Methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if ([tableView cellForRowAtIndexPath:indexPath].tag == kFeedbackCellTag) {
-        [tableView deselectRowAtIndexPath:indexPath animated:YES];
         [self provideFeedback];
+    }
+    else if ([tableView cellForRowAtIndexPath:indexPath].tag == kRateCellTag) {
+        [self rateOnAppStore];
     }
 }
 
@@ -72,7 +85,7 @@
 
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [controller dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

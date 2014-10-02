@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="z4M-t6-Gts">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="z4M-t6-Gts">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -1380,6 +1380,30 @@
                                                 <constraint firstItem="rUr-bV-blK" firstAttribute="top" secondItem="ou8-uC-cEJ" secondAttribute="top" constant="14" id="KnG-uw-IsF"/>
                                                 <constraint firstItem="rUr-bV-blK" firstAttribute="leading" secondItem="ou8-uC-cEJ" secondAttribute="leading" constant="20" id="fkT-fH-ayj"/>
                                                 <constraint firstAttribute="bottom" secondItem="rUr-bV-blK" secondAttribute="bottom" constant="15" id="rXo-kl-zNF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell tag="2" contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedbackCell" rowHeight="50" id="bFJ-eI-f2V">
+                                        <rect key="frame" x="0.0" y="246" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bFJ-eI-f2V" id="NLW-Ea-7wZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在 App Store 上评价" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVJ-a5-qAm">
+                                                    <rect key="frame" x="20" y="14" width="155" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="PFZ-dg-SHR"/>
+                                                        <constraint firstAttribute="width" constant="155" id="Qbf-pf-8gG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gVJ-a5-qAm" firstAttribute="leading" secondItem="NLW-Ea-7wZ" secondAttribute="leading" constant="20" id="7Dx-zL-2Vv"/>
+                                                <constraint firstAttribute="bottom" secondItem="gVJ-a5-qAm" secondAttribute="bottom" constant="15" id="G9r-gO-1sT"/>
+                                                <constraint firstItem="gVJ-a5-qAm" firstAttribute="top" secondItem="NLW-Ea-7wZ" secondAttribute="top" constant="14" id="lvI-wI-oTx"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>

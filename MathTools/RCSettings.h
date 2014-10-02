@@ -10,6 +10,7 @@
 #import <MessageUI/MessageUI.h>
 
 static const NSUInteger kFeedbackCellTag = 1;
+static const NSUInteger kRateCellTag = 2;
 
 @interface RCSettings : RCTableViewController <MFMailComposeViewControllerDelegate>
 

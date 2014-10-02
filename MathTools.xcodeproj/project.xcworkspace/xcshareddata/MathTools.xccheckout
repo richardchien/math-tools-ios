@@ -14,7 +14,7 @@
 		<string>https://github.com/richardchien/MathTools.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MathTools.xcodeproj/project.xcworkspace</string>
+	<string>MathTools.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>46E48A0B297A085C408485BADF6DC4B25FCBCAD4</key>
